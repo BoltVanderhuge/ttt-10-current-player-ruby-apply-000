@@ -7,6 +7,7 @@ def turn_count (board)
   end
   return count
 end
+end
 
 
 
