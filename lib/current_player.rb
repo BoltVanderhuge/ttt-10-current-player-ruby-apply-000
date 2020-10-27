@@ -1,9 +1,10 @@
 board = [" ", " ", " ", " ", "", " ", " ", " ", " "]
-def turn_count(board)
-  count = 0
-  board.each do |marker|
-  puts "Turn #{marker}"
+def turn_count (board)
+  count = 0 
+  board.each do |counter|
+    count += 1 if counter == "X" || token == "O"
   end
+  return count
 end
 
 
